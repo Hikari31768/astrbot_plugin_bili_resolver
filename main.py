@@ -32,8 +32,6 @@ HEADERS = {
 DEFAULT_TIMEOUT = ClientTimeout(total=15)
 
 BILI_PATTERN = re.compile(
-    r"(b23\.tv)|(bili(22|23|33|2233)\.cn)|(\.bilibili\.com)"
-    r"|(\b(av|cv)(\d+))|\b(BV([a-zA-Z0-9]{10})+)"
     r"|(\[\[QQ小程序\]哔哩哔哩\])|(QQ小程序&amp;#93;哔哩哔哩)"
     r"|(QQ小程序&#93;哔哩哔哩)",
     re.I,
@@ -220,8 +218,8 @@ def _format_msg(msg_list: List[Union[List[str], str]]) -> list:
     "bilibili小组件等转链的工具,方便PC查看链接,"
     "因为之前用其他的转链总是被踢下线,所以自己写了个简单版的,"
     "从发布以来还没被踢下线",
-    "1.0.3",
-    "https://github.com/chufeng/astrbot_plugin_bili_resolver",
+    "1.0.4",
+    "https://github.com/Hikarin31768/astrbot_plugin_bili_resolver",
 )
 class BilibiliAnalysis(Star):
 
