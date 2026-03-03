@@ -219,7 +219,7 @@ def _format_msg(msg_list: List[Union[List[str], str]]) -> list:
     "因为之前用其他的转链总是被踢下线,所以自己写了个简单版的,"
     "从发布以来还没被踢下线",
     "1.0.4",
-    "https://github.com/Hikarin31768/astrbot_plugin_bili_resolver",
+    "https://github.com/Hikari31768/astrbot_plugin_bili_resolver",
 )
 class BilibiliAnalysis(Star):
 
